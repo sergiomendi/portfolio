@@ -1,4 +1,4 @@
-import { Section } from "./_page/Section";
+import { ProfileSection } from "./_page/Section";
 import Box from "@mui/material/Box";
 
 export default function Page() {
@@ -11,11 +11,10 @@ export default function Page() {
         justifyContent: "center",
         gap: 8,
         width: "100%",
-        height: "100%",
+        height: "100vh",
       }}
     >
-      <Section />
-      <Section />
+      <ProfileSection />
     </Box>
   );
 }
