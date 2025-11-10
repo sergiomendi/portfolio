@@ -41,6 +41,13 @@ const theme = createTheme({
         size: "medium",
       },
     },
+    MuiTypography: {
+      styleOverrides: {
+        root: {
+          zIndex: 1,
+        },
+      },
+    },
   },
 });
 
