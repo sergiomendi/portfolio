@@ -1,4 +1,4 @@
-import { ProfileSection } from "./_page/Section";
+import { ProfileSection } from "./_page/ProfileSection";
 import Box from "@mui/material/Box";
 
 export default function Page() {
