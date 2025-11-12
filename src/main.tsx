@@ -4,7 +4,7 @@ import { ThemeProvider, CssBaseline } from "@mui/material";
 import "./index.css";
 import Page from "./page.jsx";
 import theme from "./muiTheme";
-import { ParticlesBackground } from "./_page/ParticlesBackground";
+import { ParticlesBackground } from "./_page/ProfileSection/ParticlesBackground";
 
 createRoot(document.getElementById("root") as HTMLElement).render(
   <StrictMode>
