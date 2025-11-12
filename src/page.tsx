@@ -1,4 +1,4 @@
-import { ExperienceSection } from "./_page/ExperienceSection";
+import { ExperienceSection } from "./_page/ExperienceSection/ExperienceSection";
 import { ProfileSection } from "./_page/ProfileSection";
 import Box from "@mui/material/Box";
 

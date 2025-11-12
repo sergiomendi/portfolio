@@ -10,7 +10,7 @@ export function ProfileSection() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        width: "70%",
+        width: "60%",
         height: "100%",
         gap: 2,
       }}
