@@ -31,17 +31,17 @@ export function ProfileSection() {
           </Typography>
           <Box display={"flex"} gap={1} alignItems={"center"}>
             <IconButton href={githubUrl} target="_blank">
-              <Avatar alt="Avatar" src="../../public/assets/github.png" />
+              <Avatar alt="Avatar" src="assets/github.png" />
             </IconButton>
             <IconButton href={`mailto:${mailto}`}>
               <img
                 alt="Avatar"
-                src="../../public/assets/gmail.svg"
+                src="assets/gmail.svg"
                 style={{ width: 40, height: 40 }}
               />
             </IconButton>
             <IconButton
-              href="./../public/assets/Sergio_Mendiola_CV.pdf"
+              href="assets/Sergio_Mendiola_CV.pdf"
               download="Sergio_Mendiola_CV.pdf"
               component="a"
             >
@@ -52,7 +52,7 @@ export function ProfileSection() {
         <Avatar
           sx={{ width: 300, height: 300 }}
           alt="Avatar"
-          src="/assets/foto_empresa.jpg"
+          src="assets/foto_empresa.jpg"
           slotProps={{
             img: {
               style: {
