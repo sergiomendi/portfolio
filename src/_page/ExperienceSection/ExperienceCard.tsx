@@ -30,25 +30,26 @@ export const ExperienceCard = () => {
         variant="subtitle2"
         sx={{ color: "rgba(255,255,255,0.6)", mb: 3 }}
       >
-        2024 – Actualidad
+        2024 – Present
       </Typography>
 
       <Typography variant="body1" sx={{ mb: 1.5 }}>
-        • Desarrollé y mantuve interfaces interactivas usando{" "}
-        <b>React, TypeScript, CSS y Material UI</b> para una plataforma con más
-        de <b>80,000 usuarios activos</b>.
+        • Developed and maintained interactive interfaces using{" "}
+        <b>React, TypeScript, CSS, and Material UI</b> for a platform with over{" "}
+        <b>80,000 active users</b>.
       </Typography>
       <Typography variant="body1" sx={{ mb: 1.5 }}>
-        • Implementé dashboards funcionales para extraer insights y aportar
-        valor a los datos procesados.
+        • Implemented functional dashboards to extract insights and provide
+        value from processed data.
       </Typography>
       <Typography variant="body1" sx={{ mb: 1.5 }}>
-        • Desarrollé y mantuve servicios backend en <b>.NET (C#)</b> integrados
-        con <b>PostgreSQL</b>, garantizando escalabilidad y alto rendimiento.
+        • Developed and maintained backend services in <b>.NET (C#)</b>{" "}
+        integrated with <b>PostgreSQL</b>, ensuring scalability and high
+        performance.
       </Typography>
       <Typography variant="body1">
-        • Apliqué scripting en <b>Python</b> y <b>SQL</b> para procesar y
-        transformar conjuntos de datos de forma eficiente.
+        • Applied scripting in <b>Python</b> and <b>SQL</b> to efficiently
+        process and transform data sets.
       </Typography>
     </Box>
   );
